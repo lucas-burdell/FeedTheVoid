@@ -157,6 +157,7 @@
     <object>objects\sound_player_earth</object>
     <object>objects\sound_player_fire</object>
     <object>objects\sound_player_nightmare</object>
+    <object>objects\sound_player_boss</object>
     <object>objects\obj_genericText</object>
     <object>objects\obj_tutorial_road</object>
     <object>objects\obj_indicator_arrow</object>
@@ -215,11 +216,11 @@
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
     <room>rooms\rm_airLevelpart_1</room>
-    <room>rooms\rm_temple_air</room>
     <room>rooms\rm_nightmareLevelpart_1</room>
-    <room>rooms\rm_fireLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_2</room>
+    <room>rooms\rm_temple_air</room>
+    <room>rooms\rm_fireLevelpart_1</room>
     <room>rooms\rm_water_temple_entrance</room>
     <room>rooms\rm_earthLevelpart_1</room>
     <room>rooms\rm_merchant</room>

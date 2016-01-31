@@ -111,6 +111,7 @@
     <instance objName="obj_inv_wall_player" x="752" y="352" name="inst_EEF48292" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_inv_wall_player" x="671" y="314" name="inst_18E589E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_inv_wall_player" x="693" y="310" name="inst_029F73E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sound_player_boss" x="128" y="64" name="inst_E2708EFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
