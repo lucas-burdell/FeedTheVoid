@@ -117,6 +117,7 @@ instance_activate_all();
             <kind>1</kind>
             <string>///Menu Options
 draw_sprite(background, 0, 512,384);
+draw_sprite(spr_deadLogo, 0, 530, 384-220);
 
 if(interest == "continue")
 {

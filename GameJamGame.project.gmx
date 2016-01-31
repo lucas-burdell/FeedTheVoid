@@ -42,6 +42,7 @@
       <sprite>sprites\spr_button_start</sprite>
       <sprite>sprites\spr_button_restart</sprite>
       <sprite>sprites\spr_pause</sprite>
+      <sprite>sprites\spr_deadLogo</sprite>
     </sprites>
     <sprites name="Bird Man">
       <sprite>sprites\spr_eagleman_run</sprite>
@@ -92,6 +93,7 @@
     <background>background\bg_tutorial_1</background>
     <background>background\bg_tutorial_temple_hallway</background>
     <background>background\bg_tutorial_temple_hallway_tile</background>
+    <background>background\bg_hubWorld</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -147,6 +149,7 @@
       <object>objects\oj_door_fire</object>
       <object>objects\oj_door_water</object>
       <object>objects\obj_door</object>
+      <object>objects\object62</object>
       <object>objects\oj_door_merchant</object>
       <object>objects\oj_door_earth</object>
       <object>objects\obj_touch_door</object>

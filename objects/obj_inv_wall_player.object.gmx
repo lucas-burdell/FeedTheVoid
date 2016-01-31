@@ -5,7 +5,7 @@
   <visible>0</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_floor</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="4" ename="obj_char">
@@ -19,8 +19,8 @@
         <exetype>1</exetype>
         <functionname>action_move</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
+        <whoName>obj_char</whoName>
+        <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
