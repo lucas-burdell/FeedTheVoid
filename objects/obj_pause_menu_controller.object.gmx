@@ -111,24 +111,25 @@ instance_activate_all();
             <kind>1</kind>
             <string>///Menu Options
 draw_sprite(background, 0, 512,384);
+draw_sprite(spr_pause, 0, 520, 125);
 
 if(interest == "continue")
 {
-    draw_sprite(spr_button_start, 1, 330, 184-50);
-    draw_sprite(spr_button_mainMenu, 0, 330, 184+25);
-    draw_sprite(spr_button_exit, 0, 330, 184+100);
+    draw_sprite(spr_button_start, 1, 530, 384-50);
+    draw_sprite(spr_button_mainMenu, 0, 530, 384+25);
+    draw_sprite(spr_button_exit, 0, 530, 384+100);
 }
 else if (interest == "exit")
 {
-    draw_sprite(spr_button_start, 0, 330, 184-50);
-    draw_sprite(spr_button_mainMenu, 0, 330, 184+25);
-    draw_sprite(spr_button_exit, 1, 330, 184+100);
+    draw_sprite(spr_button_start, 0, 530, 384-50);
+    draw_sprite(spr_button_mainMenu, 0, 530, 384+25);
+    draw_sprite(spr_button_exit, 1, 530, 384+100);
 }
 else if (interest == "mainMenu")
 {
-    draw_sprite(spr_button_start, 0, 330, 184-50);
-    draw_sprite(spr_button_mainMenu, 1, 330, 184+25);
-    draw_sprite(spr_button_exit, 0, 330, 184+100);
+    draw_sprite(spr_button_start, 0, 530, 384-50);
+    draw_sprite(spr_button_mainMenu, 1, 530, 384+25);
+    draw_sprite(spr_button_exit, 0, 530, 384+100);
 }
 </string>
           </argument>
