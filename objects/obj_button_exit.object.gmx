@@ -69,6 +69,10 @@
 {
     if (mouse_check_button_pressed(mb_left) = true)
     {
+        if (file_exists("workingscreenie.png"))
+        {
+            file_delete("workingscreenie.png");
+        }
         game_end();
     }
 }
