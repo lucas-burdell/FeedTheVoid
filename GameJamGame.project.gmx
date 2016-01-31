@@ -72,6 +72,7 @@
     <background>background\bg_water_temple</background>
     <background>background\bg_nightmare</background>
     <background>background\bg_items</background>
+    <background>background\bg_mainMenu</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -140,6 +141,8 @@
     <object>objects\obj_button_mainMenu</object>
     <object>objects\obj_button_parent</object>
     <object>objects\obj_button_start</object>
+    <object>objects\obj_room_controller</object>
+    <object>objects\obj_pause_menu_controller</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
@@ -147,10 +150,10 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>
+    <room>rooms\rm_first</room>
     <room>rooms\rm_temple_air</room>
     <room>rooms\cutscene_1</room>
     <room>rooms\mainmenu</room>
-    <room>rooms\rm_first</room>
     <room>rooms\rm_airLevelpart_1</room>
     <room>rooms\rm_second</room>
     <room>rooms\rm_nightmareLevelpart_1</room>
@@ -174,7 +177,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\lucas.burdell\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
