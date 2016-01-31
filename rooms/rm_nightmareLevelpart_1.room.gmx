@@ -51,11 +51,11 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_skull_floor" x="128" y="640" name="inst_0691A633" locked="0" code="" scaleX="1.7380952835083" scaleY="2.61904764175415" colour="4294967295" rotation="0"/>
+    <instance objName="obj_skull_floor" x="128" y="672" name="inst_0691A633" locked="0" code="" scaleX="1.7380952835083" scaleY="2.61904764175415" colour="4294967295" rotation="0"/>
     <instance objName="obj_skull_floor" x="96" y="704" name="inst_814FF42D" locked="0" code="" scaleX="2.19047617912292" scaleY="2.28571438789368" colour="4294967295" rotation="0"/>
     <instance objName="obj_skull_floor" x="192" y="704" name="inst_26534919" locked="0" code="" scaleX="2.19047617912292" scaleY="2.28571438789368" colour="4294967295" rotation="0"/>
     <instance objName="obj_skull_floor" x="96" y="736" name="inst_07D929E5" locked="0" code="" scaleX="2.0238094329834" scaleY="2.09999990463257" colour="4294967295" rotation="0"/>
-    <instance objName="obj_skull_floor" x="160" y="736" name="inst_95888F2D" locked="0" code="" scaleX="1.97619044780731" scaleY="2.28571438789368" colour="4294967295" rotation="0"/>
+    <instance objName="obj_skull_floor" x="192" y="736" name="inst_95888F2D" locked="0" code="" scaleX="1.97619044780731" scaleY="2.28571438789368" colour="4294967295" rotation="0"/>
     <instance objName="obj_skull_movingside2side_floor" x="384" y="736" name="inst_435BA93E" locked="0" code="" scaleX="1.29268288612366" scaleY="2.09999990463257" colour="4294967295" rotation="0"/>
     <instance objName="obj_inv_wall" x="288" y="736" name="inst_6F1E4B36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_inv_wall" x="512" y="736" name="inst_50BDA5B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -107,7 +107,9 @@
     <instance objName="obj_inv_wall_player" x="864" y="0" name="inst_96ED09AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_skull_floor" x="992" y="128" name="inst_4BE9BB00" locked="0" code="" scaleX="1.31707322597504" scaleY="1.57894742488861" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="992" y="64" name="inst_127E90C9" locked="0" code="" scaleX="1.16666662693024" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
-    <instance objName="obj_char" x="128" y="544" name="inst_A6EE1D9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_char" x="128" y="608" name="inst_A6EE1D9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oj_squence_death" x="96" y="736" name="inst_3329D72F" locked="0" code="" scaleX="29" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_skull_music" x="32" y="32" name="inst_14DC43D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

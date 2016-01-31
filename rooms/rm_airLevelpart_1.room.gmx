@@ -51,16 +51,20 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_floor" x="136" y="608" name="inst_ADC649B9" locked="0" code="" scaleX="-4.4193549156189" scaleY="0.774193525314331" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor" x="128" y="640" name="inst_3561815B" locked="0" code="" scaleX="3.5" scaleY="1.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor" x="96" y="672" name="inst_78EEA13C" locked="0" code="" scaleX="-0.5" scaleY="1.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor" x="160" y="672" name="inst_368B7338" locked="0" code="" scaleX="-0.5" scaleY="1.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor" x="128" y="672" name="inst_AC0A69BE" locked="0" code="" scaleX="0.375" scaleY="2.40625" colour="4294967295" rotation="0"/>
-    <instance objName="obj_eagleman" x="128" y="480" name="inst_C216C4BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oj_movingup_down_floor" x="320" y="576" name="inst_D01FFB61" locked="0" code="" scaleX="3.87096762657166" scaleY="1.25806450843811" colour="4294967295" rotation="0"/>
-    <instance objName="obj_movingside2side_floor" x="512" y="224" name="inst_13CDBE2E" locked="0" code="" scaleX="3.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_inv_wall" x="320" y="224" name="inst_955DFE89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_inv_wall" x="736" y="192" name="inst_3D43FEA4" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bulidingrubble" x="384" y="160" name="inst_982C7E4A" locked="0" code="" scaleX="1.22222220897675" scaleY="1.11538457870483" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bulidingrubble" x="224" y="224" name="inst_BD949C7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bulidingrubble" x="672" y="320" name="inst_0CEC75D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bulidingrubble" x="512" y="320" name="inst_B4844B75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_inv_wall" x="320" y="640" name="inst_1F18B57E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oj_squence_death" x="0" y="672" name="inst_FB756A9F" locked="0" code="" scaleX="32" scaleY="1.02999997138977" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud_moveupanddown" x="320" y="576" name="inst_6151B61C" locked="0" code="" scaleX="1.327272772789" scaleY="1.77419352531433" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud_movingside2side" x="480" y="224" name="inst_4B54F931" locked="0" code="" scaleX="1.64285719394684" scaleY="1.62068963050842" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud_floor" x="128" y="608" name="inst_0AC6024B" locked="0" code="" scaleX="3.35714292526245" scaleY="2.72413802146912" colour="4294967295" rotation="0"/>
+    <instance objName="obj_char" x="128" y="512" name="inst_D26772B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud_floor" x="896" y="192" name="inst_5E73E536" locked="0" code="" scaleX="2.78571438789368" scaleY="2.72000002861023" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="928" y="128" name="inst_C025CD67" locked="0" code="" scaleX="1.16666662693024" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

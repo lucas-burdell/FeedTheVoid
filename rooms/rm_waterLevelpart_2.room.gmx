@@ -58,6 +58,7 @@
     <instance objName="oj_ice" x="832" y="704" name="inst_8F6A2312" locked="0" code="" scaleX="12" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="992" y="576" name="inst_4EBC09C1" locked="0" code="" scaleX="1.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_eagleman" x="32" y="544" name="inst_24AB6260" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oj_squence_death" x="0" y="736" name="inst_AB5BF76E" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

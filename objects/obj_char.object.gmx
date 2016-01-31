@@ -105,16 +105,11 @@ if (place_meeting(x, y + vsp, obj_floor)) {
 x += hsp;
 y += vsp;
 
-
-/*
-
-
 if position_meeting(x-sprite_xoffset+sprite_width/2, y-sprite_yoffset+sprite_height + 1, oj_movingup_down_floor){
 objID = instance_position(x-sprite_xoffset+sprite_width/2, y-sprite_yoffset+sprite_height + 1,oj_movingup_down_floor)
 vspeed = objID.vspeed;
 move_outside_solid(90,sprite_height);
 }
-*/
 
 //Clipping check (prevent character getting stuck)
 
@@ -138,10 +133,74 @@ if (place_meeting(x,y+1,obj_floor)) {
     if(move!=0) sprite_index = spr_eagleman_run; else sprite_index = spr_eagleman_idle;
 } else {
     if(vsp&lt;0) sprite_index = spr_eagleman_jump; else sprite_index = spr_eagleman_fall;
-
-
 }
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_bulidingrubble">
+      <action>
+        <libid>1</libid>
+        <id>211</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>snd_death</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>rm_deathScreen</room>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>212</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_end_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>snd_air_realm_fixed</sound>
           </argument>
         </arguments>
       </action>
@@ -169,8 +228,9 @@ if (place_meeting(x, y, obj_door)) {
     if room_next(room) != -1 {
         room_goto(room_next(room));
     }
-
 }
+*/
+
 </string>
           </argument>
         </arguments>
