@@ -8,6 +8,96 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>currentTheme = 0;
+currentlyPlayingSong = snd_air_realm;
+
+// theme states
+themes[0] = "tutorial"; //air
+themes[1] = "water";
+themes[2] = "fire";
+themes[3] = "earth";
+themes[4] = "nightmare";
+themes[5] = "boss";
+
+//theme songs
+themeSongs[0] = snd_air_realm; //air
+themeSongs[1] = snd_water_realm; //water
+themeSongs[2] = snd_fire_realm; //fire
+themeSongs[3] = snd_earth_realm; //earth
+themeSongs[4] = snd_nightmare_realm; //nightmare
+themeSongs[5] = snd_boss_realm; // boss
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Audio controller
+/*
+var foundit = false;
+for (i = 0; i &lt; array_length_1d(themes); i++) {
+    var s1 = string_insert(themes[i], "rm", string_length("rm"));
+    var s2 = string_insert("Levelpart", s1, string_length(s1));
+    var s3 = string_insert("temple", s1, string_length(s1));
+    var s4 = string_letters(room_get_name(room));
+    if (s2 == s3) {
+        if (currentTheme == i) {
+//            audio_stop_sound(currentlyPlayingSong);
+        } else {
+            currentTheme = i;
+            audio_stop_sound(currentlyPlayingSong);
+            currentlyPlayingSong = audio_play_sound(themeSongs[currentTheme], 10, true);
+        }
+        foundit = true;
+        break;
+    }
+}
+
+if (!foundit) {
+    audio_stop_all();
+}
+
+*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="45">
       <action>
         <libid>1</libid>
