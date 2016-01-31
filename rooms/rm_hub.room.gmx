@@ -158,7 +158,6 @@
     <instance objName="obj_door_air" x="736" y="288" name="inst_5742E251" locked="0" code="" scaleX="1.95744681358337" scaleY="1.55696201324463" colour="4294967295" rotation="0"/>
     <instance objName="oj_door_merchant" x="224" y="288" name="inst_53673690" locked="0" code="" scaleX="2.3125" scaleY="1.8125" colour="4294967295" rotation="0"/>
     <instance objName="oj_door_nightmare" x="928" y="256" name="inst_3E434AC2" locked="0" code="" scaleX="-3.41666674613953" scaleY="2.25" colour="4294967295" rotation="0"/>
-    <instance objName="oj_squence_death" x="0" y="736" name="inst_B0C1CF84" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_char" x="96" y="288" name="inst_A30D7DDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="168" y="537" name="inst_F4664ECF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

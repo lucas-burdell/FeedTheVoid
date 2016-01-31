@@ -136,7 +136,7 @@
     <instance objName="obj_MSG_trigger" x="160" y="640" name="inst_2FB3C3E2" locked="0" code="myMessage[0] = &quot;Quick, grab that thing!&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_darkness_side_right" x="1120" y="384" name="inst_04D03D06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_darkness_side" x="64" y="384" name="inst_CC2EC561" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oj_portal" x="544" y="480" name="inst_22B1A1F2" locked="0" code="" scaleX="4.5" scaleY="4.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_portal" x="544" y="480" name="inst_1D377EE7" locked="0" code="" scaleX="3.5" scaleY="3.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

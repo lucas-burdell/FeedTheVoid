@@ -117,7 +117,6 @@
     <object>objects\obj_starchar</object>
     <object>objects\obj_helper_text</object>
     <object>objects\intro_text</object>
-    <object>objects\oj_portal</object>
     <object>objects\oj_newGame</object>
     <object>objects\oj_loadGame</object>
     <object>objects\oj_exit</object>
@@ -139,12 +138,7 @@
     <object>objects\oj_restart</object>
     <object>objects\obj_youDied</object>
     <object>objects\oj_squence_death</object>
-    <object>objects\obj_button_exit</object>
-    <object>objects\obj_button_mainMenu</object>
-    <object>objects\obj_button_parent</object>
-    <object>objects\obj_button_start</object>
     <object>objects\obj_room_controller</object>
-    <object>objects\obj_pause_menu_controller</object>
     <object>objects\obj_genericText</object>
     <object>objects\obj_tutorial_road</object>
     <object>objects\obj_indicator_arrow</object>
@@ -178,7 +172,7 @@
     <object>objects\obj_darkness_hand</object>
     <object>objects\obj_darkness_hand_right</object>
     <objects name="Buttons">
-      <object>objects\obj_button_mainMenu</object>
+      <object>objects\obj_button_mainMenu0</object>
       <object>objects\obj_button_parent</object>
       <object>objects\obj_button_exit</object>
       <object>objects\obj_button_start</object>
@@ -187,6 +181,7 @@
       <object>objects\obj_death_screen</object>
       <object>objects\obj_retarded_death</object>
     </objects>
+    <object>objects\obj_portal</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
@@ -195,9 +190,9 @@
     <room>rooms\rm_mainMenu</room>
     <room>rooms\cutscene_1</room>
     <room>rooms\rm_tutorial_1</room>
-    <room>rooms\rm_tutorial_2</room>
     <room>rooms\rm_tutorial_temple</room>
     <room>rooms\rm_hub</room>
+    <room>rooms\rm_tutorial_2</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
     <room>rooms\rm_airLevelpart_1</room>
@@ -217,7 +212,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\lucas.burdell\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
