@@ -54,6 +54,9 @@
     <sprite>sprites\sprite37</sprite>
     <sprite>sprites\spr_building_rumble</sprite>
     <sprite>sprites\spr_cloud_floor</sprite>
+    <sprite>sprites\spr_button_exit</sprite>
+    <sprite>sprites\spr_button_mainMenu</sprite>
+    <sprite>sprites\spr_button_start</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -82,6 +85,7 @@
     <script>scripts\message_remove.gml</script>
     <script>scripts\read_message.gml</script>
     <script>scripts\scr_youdied.gml</script>
+    <script>scripts\scr_image.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
@@ -132,27 +136,29 @@
     <object>objects\obj_cloud_movingside2side</object>
     <object>objects\obj_cloud_moveupanddown</object>
     <object>objects\obj_skull_music</object>
+    <object>objects\obj_button_exit</object>
+    <object>objects\obj_button_mainMenu</object>
+    <object>objects\obj_button_parent</object>
+    <object>objects\obj_button_start</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
     <timeline>timelines\testing</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_nightmareLevelpart_1</room>
+    <room>rooms\rm_mainMenu</room>
+    <room>rooms\rm_temple_air</room>
     <room>rooms\cutscene_1</room>
     <room>rooms\mainmenu</room>
     <room>rooms\rm_first</room>
-    <room>rooms\rm_temple_air</room>
     <room>rooms\rm_airLevelpart_1</room>
-    <room>rooms\rm_temple_air</room>
-    <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
+    <room>rooms\rm_nightmareLevelpart_1</room>
     <room>rooms\rm_hub</room>
     <room>rooms\rm_fireLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_2</room>
     <room>rooms\rm_water_temple_enterance</room>
-    <room>rooms\rm_nightmareLevelpart_1</room>
     <room>rooms\rm_earthLevelpart_1</room>
     <room>rooms\rm_merchant</room>
     <room>rooms\rm_temple_entrance</room>
@@ -168,7 +174,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\lucas.burdell\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
