@@ -64,6 +64,43 @@
     <sprite>sprites\spr_darkness_side</sprite>
     <sprite>sprites\spr_darkness_hand_right</sprite>
     <sprite>sprites\spr_darkness_hand</sprite>
+    <sprites name="Buttons">
+      <sprite>sprites\spr_button_exit</sprite>
+      <sprite>sprites\spr_button_mainMenu</sprite>
+      <sprite>sprites\spr_button_start</sprite>
+      <sprite>sprites\spr_button_restart</sprite>
+      <sprite>sprites\spr_pause</sprite>
+    </sprites>
+    <sprites name="Bird Man">
+      <sprite>sprites\spr_eagleman_run</sprite>
+      <sprite>sprites\spr_eagleman</sprite>
+      <sprite>sprites\spr_eagleman_fall</sprite>
+      <sprite>sprites\spr_eagleman_idle</sprite>
+      <sprite>sprites\spr_eagleman_jump</sprite>
+    </sprites>
+    <sprites name="Starfish Man">
+      <sprite>sprites\spr_starman</sprite>
+      <sprite>sprites\spr_starman_jump</sprite>
+      <sprite>sprites\spr_starman_fall</sprite>
+      <sprite>sprites\spr_starman_run</sprite>
+      <sprite>sprites\spr_starman_idle</sprite>
+    </sprites>
+    <sprites name="Doors">
+      <sprite>sprites\spr_door_hub</sprite>
+      <sprite>sprites\spr_door_water</sprite>
+      <sprite>sprites\spr_door_merchant</sprite>
+      <sprite>sprites\spr_door_fire</sprite>
+      <sprite>sprites\spr_door_air</sprite>
+      <sprite>sprites\spr_door_earth</sprite>
+      <sprite>sprites\spr_door_nightmare</sprite>
+    </sprites>
+    <sprites name="crystals">
+      <sprite>sprites\spr_water_krystal</sprite>
+      <sprite>sprites\spr_earth_krystal</sprite>
+      <sprite>sprites\spr_air_krystal</sprite>
+      <sprite>sprites\spr_nightmare_krystal</sprite>
+      <sprite>sprites\spr_fire_krystal</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -167,7 +204,16 @@
     <object>objects\obj_darkness_side</object>
     <object>objects\obj_darkness_side_right</object>
     <object>objects\obj_darkness_hand</object>
-    <object>objects\obj_darkness_hand_right</object>
+    <objects name="Buttons">
+      <object>objects\obj_button_mainMenu</object>
+      <object>objects\obj_button_parent</object>
+      <object>objects\obj_button_exit</object>
+      <object>objects\obj_button_start</object>
+      <object>objects\obj_button_restart</object>
+      <object>objects\obj_pause_menu_controller</object>
+      <object>objects\obj_death_screen</object>
+      <object>objects\obj_retarded_death</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
@@ -198,7 +244,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\lucas.burdell\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
