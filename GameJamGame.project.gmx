@@ -124,7 +124,6 @@
     <object>objects\obj_ice_movingside2side_floor</object>
     <object>objects\obj_eagleman</object>
     <object>objects\oj_coin</object>
-    <object>objects\obj_health</object>
     <object>objects\oj_door_hub</object>
     <object>objects\obj_mainmenu_stopsound</object>
     <object>objects\obj_roomTransition</object>
@@ -181,7 +180,7 @@
       <object>objects\obj_death_screen</object>
     </objects>
     <object>objects\obj_portal</object>
-  <object>objects\Killer</object>
+    <object>objects\Killer</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
