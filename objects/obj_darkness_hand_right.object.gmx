@@ -54,7 +54,7 @@ offsety = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = originx - cos(count * mult) * sprite_width/8;
+            <string>x = originx + cos(count * mult) * sprite_width/8;
 y = originy + sin(count * mult) * sprite_height/4;
 count += 1;
 </string>

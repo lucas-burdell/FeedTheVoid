@@ -17,46 +17,18 @@
     <sprite>sprites\spr_char</sprite>
     <sprite>sprites\spr_floor</sprite>
     <sprite>sprites\spr_door</sprite>
-    <sprite>sprites\spr_starman_fall</sprite>
-    <sprite>sprites\spr_starman_run</sprite>
-    <sprite>sprites\spr_starman_jump</sprite>
-    <sprite>sprites\spr_starman_idle</sprite>
-    <sprite>sprites\spr_starman</sprite>
     <sprite>sprites\sp_white_block</sprite>
     <sprite>sprites\sp_portal</sprite>
-    <sprite>sprites\sprite12</sprite>
     <sprite>sprites\spr_iceplatform</sprite>
-    <sprite>sprites\spr_door_merchant</sprite>
-    <sprite>sprites\spr_door_air</sprite>
-    <sprite>sprites\spr_eagleman</sprite>
-    <sprite>sprites\spr_eagleman_idle</sprite>
-    <sprite>sprites\spr_eagleman_run</sprite>
-    <sprite>sprites\spr_eagleman_fall</sprite>
-    <sprite>sprites\spr_eagleman_jump</sprite>
-    <sprite>sprites\spr_door_fire</sprite>
-    <sprite>sprites\spr_door_water</sprite>
-    <sprite>sprites\spr_door_earth</sprite>
-    <sprite>sprites\spr_door_nightmare</sprite>
     <sprite>sprites\spr_coin</sprite>
-    <sprite>sprites\spr_door_hub</sprite>
-    <sprite>sprites\sprite27</sprite>
     <sprite>sprites\spr_torch_flicker</sprite>
     <sprite>sprites\sDialog</sprite>
     <sprite>sprites\sGuy</sprite>
     <sprite>sprites\sPlayer</sprite>
     <sprite>sprites\spr_skull</sprite>
     <sprite>sprites\spr_inv_wall</sprite>
-    <sprite>sprites\spr_fire_krystal</sprite>
-    <sprite>sprites\spr_water_krystal</sprite>
-    <sprite>sprites\spr_air_krystal</sprite>
-    <sprite>sprites\spr_earth_krystal</sprite>
-    <sprite>sprites\spr_nightmare_krystal</sprite>
-    <sprite>sprites\sprite37</sprite>
     <sprite>sprites\spr_building_rumble</sprite>
     <sprite>sprites\spr_cloud_floor</sprite>
-    <sprite>sprites\spr_button_exit</sprite>
-    <sprite>sprites\spr_button_mainMenu</sprite>
-    <sprite>sprites\spr_button_start</sprite>
     <sprite>sprites\spr_tutorial_road</sprite>
     <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_elemental_char</sprite>
@@ -204,6 +176,7 @@
     <object>objects\obj_darkness_side</object>
     <object>objects\obj_darkness_side_right</object>
     <object>objects\obj_darkness_hand</object>
+    <object>objects\obj_darkness_hand_right</object>
     <objects name="Buttons">
       <object>objects\obj_button_mainMenu</object>
       <object>objects\obj_button_parent</object>
