@@ -60,7 +60,9 @@
     <sprite>sprites\spr_tutorial_road</sprite>
     <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_elemental_char</sprite>
+    <sprite>sprites\spr_darkness_side_right</sprite>
     <sprite>sprites\spr_darkness_side</sprite>
+    <sprite>sprites\spr_darkness_hand_right</sprite>
     <sprite>sprites\spr_darkness_hand</sprite>
   </sprites>
   <backgrounds name="background">
@@ -163,7 +165,9 @@
     </objects>
     <object>objects\obj_elemental_char</object>
     <object>objects\obj_darkness_side</object>
+    <object>objects\obj_darkness_side_right</object>
     <object>objects\obj_darkness_hand</object>
+    <object>objects\obj_darkness_hand_right</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
@@ -173,6 +177,7 @@
     <room>rooms\cutscene_1</room>
     <room>rooms\rm_tutorial_1</room>
     <room>rooms\rm_tutorial_2</room>
+    <room>rooms\rm_tutorial_temple</room>
     <room>rooms\rm_hub</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
@@ -193,7 +198,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\lucas.burdell\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
