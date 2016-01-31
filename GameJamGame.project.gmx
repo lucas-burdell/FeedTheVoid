@@ -57,6 +57,11 @@
     <sprite>sprites\spr_button_exit</sprite>
     <sprite>sprites\spr_button_mainMenu</sprite>
     <sprite>sprites\spr_button_start</sprite>
+    <sprite>sprites\spr_tutorial_road</sprite>
+    <sprite>sprites\spr_arrow</sprite>
+    <sprite>sprites\spr_elemental_char</sprite>
+    <sprite>sprites\spr_darkness_side</sprite>
+    <sprite>sprites\spr_darkness_hand</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -73,6 +78,9 @@
     <background>background\bg_nightmare</background>
     <background>background\bg_items</background>
     <background>background\bg_mainMenu</background>
+    <background>background\bg_tutorial_1</background>
+    <background>background\bg_tutorial_temple_hallway</background>
+    <background>background\bg_tutorial_temple_hallway_tile</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -95,9 +103,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_char</object>
-    <object>objects\obj_floor</object>
-    <object>objects\obj_door_air</object>
-    <object>objects\obj_door</object>
     <object>objects\obj_starchar</object>
     <object>objects\obj_helper_text</object>
     <object>objects\intro_text</object>
@@ -107,37 +112,22 @@
     <object>objects\oj_exit</object>
     <object>objects\oj_ice</object>
     <object>objects\obj_ice_movingside2side_floor</object>
-    <object>objects\obj_movingside2side_floor</object>
     <object>objects\obj_eagleman</object>
-    <object>objects\oj_door_fire</object>
-    <object>objects\oj_door_earth</object>
-    <object>objects\oj_door_water</object>
-    <object>objects\oj_door_merchant</object>
-    <object>objects\oj_door_nightmare</object>
-    <object>objects\oj_movingup_down_floor</object>
     <object>objects\oj_coin</object>
     <object>objects\obj_health</object>
     <object>objects\oj_door_hub</object>
-    <object>objects\obj_testText</object>
+    <object>objects\obj_mainmenu_stopsound</object>
     <object>objects\obj_roomTransition</object>
     <object>objects\obj_flicker_torch</object>
-    <object>objects\Controller</object>
+    <object>objects\obj_MSG_Controller</object>
     <object>objects\Guy</object>
     <object>objects\Player</object>
-    <object>objects\obj_skull_floor</object>
-    <object>objects\obj_skull_movingside2side_floor</object>
     <object>objects\obj_inv_wall</object>
-    <object>objects\obj_skull_movingup_down_floor</object>
+    <object>objects\obj_MSG_trigger</object>
     <object>objects\obj_inv_wall_player</object>
     <object>objects\oj_restart</object>
-    <object>objects\obj_bulidingrubble</object>
     <object>objects\obj_youDied</object>
     <object>objects\oj_squence_death</object>
-    <object>objects\obj_cloud_floor</object>
-    <object>objects\obj_cloud_movingside2side</object>
-    <object>objects\obj_cloud_moveupanddown</object>
-    <object>objects\obj_skull_music</object>
-    <object>objects\obj_flicker_torch</object>
     <object>objects\obj_button_exit</object>
     <object>objects\obj_button_mainMenu</object>
     <object>objects\obj_button_parent</object>
@@ -145,24 +135,50 @@
     <object>objects\obj_room_controller</object>
     <object>objects\obj_pause_menu_controller</object>
     <object>objects\obj_genericText</object>
+    <object>objects\obj_tutorial_road</object>
+    <object>objects\obj_indicator_arrow</object>
+    <objects name="doors">
+      <object>objects\oj_door_nightmare</object>
+      <object>objects\obj_door_air</object>
+      <object>objects\oj_door_fire</object>
+      <object>objects\oj_door_water</object>
+      <object>objects\obj_door</object>
+      <object>objects\oj_door_merchant</object>
+      <object>objects\oj_door_earth</object>
+      <object>objects\obj_touch_door</object>
+    </objects>
+    <objects name="terrain">
+      <object>objects\obj_skull_movingup_down_floor</object>
+      <object>objects\obj_movingside2side_floor</object>
+      <object>objects\obj_bulidingrubble</object>
+      <object>objects\obj_cloud_movingside2side</object>
+      <object>objects\obj_skull_music</object>
+      <object>objects\obj_cloud_floor</object>
+      <object>objects\obj_cloud_moveupanddown</object>
+      <object>objects\obj_skull_floor</object>
+      <object>objects\obj_skull_movingside2side_floor</object>
+      <object>objects\oj_movingup_down_floor</object>
+      <object>objects\obj_floor</object>
+      <object>objects\obj_inv_floor</object>
+    </objects>
+    <object>objects\obj_elemental_char</object>
+    <object>objects\obj_darkness_side</object>
+    <object>objects\obj_darkness_hand</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
-    <timeline>timelines\testing</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>
     <room>rooms\cutscene_1</room>
-<room>rooms\rm_first</room>
-    <room>rooms\rm_temple_air</room>
-    <room>rooms\cutscene_1</room>
-    <room>rooms\mainmenu</room>
+    <room>rooms\rm_tutorial_1</room>
+    <room>rooms\rm_tutorial_2</room>
+    <room>rooms\rm_hub</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
     <room>rooms\rm_airLevelpart_1</room>
-    <room>rooms\rm_second</room>
+    <room>rooms\rm_temple_air</room>
     <room>rooms\rm_nightmareLevelpart_1</room>
-    <room>rooms\rm_hub</room>
     <room>rooms\rm_fireLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_2</room>
@@ -170,17 +186,14 @@
     <room>rooms\rm_earthLevelpart_1</room>
     <room>rooms\rm_merchant</room>
     <room>rooms\rm_temple_entrance</room>
-    <room>rooms\rm_mercant</room>
-    <room>rooms\rm_temple_enterance</room>
     <room>rooms\rm_deathScreen</room>
-    <room>rooms\mainmenu</room>
     <room>rooms\rm_items</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\lucas.burdell\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>

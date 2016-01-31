@@ -55,10 +55,11 @@
     <instance objName="obj_ice_movingside2side_floor" x="256" y="704" name="inst_822BC50D" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_ice_movingside2side_floor" x="480" y="672" name="inst_9743FE5A" locked="0" code="" scaleX="8" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_ice_movingside2side_floor" x="768" y="640" name="inst_B7BEB73A" locked="0" code="" scaleX="8" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="oj_ice" x="1024" y="576" name="inst_8715A368" locked="0" code="" scaleX="-6" scaleY="7" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="992" y="544" name="inst_4B140EDB" locked="0" code="" scaleX="1.5" scaleY="3.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="832" y="576" name="inst_4B140EDB" locked="0" code="" scaleX="2.04166674613953" scaleY="1.77499997615814" colour="4294967295" rotation="0"/>
     <instance objName="oj_ice" x="0" y="672" name="inst_2F91DD4C" locked="0" code="" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="oj_squence_death" x="0" y="736" name="inst_3E56E4B1" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_char" x="64" y="608" name="inst_5279BED1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_indicator_arrow" x="704" y="576" name="inst_9E7842BB" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
