@@ -1,0 +1,8 @@
+//init variables
+grav = .2;
+hsp = 0; //horizontal speed
+vsp = 0; //vertical speed
+
+//constants (ish)
+jumpspeed = 7; //jump speed
+movespeed 4;
