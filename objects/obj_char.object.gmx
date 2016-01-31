@@ -135,6 +135,7 @@ if (place_meeting(x, y + vsp, obj_floor)) {
 
 if (key_jump) {
     vsp = key_jump * -jumpspeed;
+    audio_play_sound(snd_jump, 5, false);
 }
 
 x += hsp;

@@ -9,9 +9,20 @@
     <sound>sound\snd_portal</sound>
     <sound>sound\snd_coin</sound>
     <sound>sound\snd_death</sound>
-    <sound>sound\snd_air_realm_fixed</sound>
     <sound>sound\snd_air_realm</sound>
     <sound>sound\snd_nightmare_realm</sound>
+    <sound>sound\snd_jump</sound>
+    <sound>sound\snd_water_realm</sound>
+    <sound>sound\snd_fire_realm</sound>
+    <sound>sound\snd_earth_realm</sound>
+    <sound>sound\snd_boss_realm</sound>
+    <sound>sound\dialog_tutorial_watch_out</sound>
+    <sound>sound\dialog_tutorial_take_cover</sound>
+    <sound>sound\dialog_tutorial_get_to_the_temple</sound>
+    <sound>sound\dialog_tutorial_not_that_high</sound>
+    <sound>sound\dialog_tutorial_grab_that_thing</sound>
+    <sound>sound\dialog_tutorial_temple_safe</sound>
+    <sound>sound\scream</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_char</sprite>
@@ -135,11 +146,17 @@
     <object>objects\Player</object>
     <object>objects\obj_inv_wall</object>
     <object>objects\obj_MSG_trigger</object>
+    <object>objects\obj_MSG_Dialog_trigger</object>
     <object>objects\obj_inv_wall_player</object>
     <object>objects\oj_restart</object>
     <object>objects\obj_youDied</object>
     <object>objects\oj_squence_death</object>
     <object>objects\obj_room_controller</object>
+    <object>objects\sound_player_air</object>
+    <object>objects\sound_player_water</object>
+    <object>objects\sound_player_earth</object>
+    <object>objects\sound_player_fire</object>
+    <object>objects\sound_player_nightmare</object>
     <object>objects\obj_genericText</object>
     <object>objects\obj_tutorial_road</object>
     <object>objects\obj_indicator_arrow</object>
@@ -191,8 +208,8 @@
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>
     <room>rooms\cutscene_1</room>
-    <room>rooms\rm_tutorial_1</room>
-    <room>rooms\rm_tutorial_2</room>
+    <room>rooms\rm_tutorialLevelpart_1</room>
+    <room>rooms\rm_tutorialLevelpart_2</room>
     <room>rooms\rm_tutorial_temple</room>
     <room>rooms\rm_hub</room>
     <room>rooms\rm_first</room>
