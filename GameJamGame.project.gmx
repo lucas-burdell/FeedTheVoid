@@ -72,6 +72,7 @@
     <background>background\bg_water_temple</background>
     <background>background\bg_nightmare</background>
     <background>background\bg_items</background>
+    <background>background\bg_mainMenu</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -119,6 +120,7 @@
     <object>objects\oj_door_hub</object>
     <object>objects\obj_testText</object>
     <object>objects\obj_roomTransition</object>
+    <object>objects\obj_flicker_torch</object>
     <object>objects\Controller</object>
     <object>objects\Guy</object>
     <object>objects\Player</object>
@@ -140,6 +142,8 @@
     <object>objects\obj_button_mainMenu</object>
     <object>objects\obj_button_parent</object>
     <object>objects\obj_button_start</object>
+    <object>objects\obj_room_controller</object>
+    <object>objects\obj_pause_menu_controller</object>
     <object>objects\obj_genericText</object>
   </objects>
   <timelines name="timelines">
@@ -149,10 +153,14 @@
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>
     <room>rooms\cutscene_1</room>
+<room>rooms\rm_first</room>
     <room>rooms\rm_temple_air</room>
+    <room>rooms\cutscene_1</room>
+    <room>rooms\mainmenu</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
     <room>rooms\rm_airLevelpart_1</room>
+    <room>rooms\rm_second</room>
     <room>rooms\rm_nightmareLevelpart_1</room>
     <room>rooms\rm_hub</room>
     <room>rooms\rm_fireLevelpart_1</room>
@@ -162,6 +170,8 @@
     <room>rooms\rm_earthLevelpart_1</room>
     <room>rooms\rm_merchant</room>
     <room>rooms\rm_temple_entrance</room>
+    <room>rooms\rm_mercant</room>
+    <room>rooms\rm_temple_enterance</room>
     <room>rooms\rm_deathScreen</room>
     <room>rooms\mainmenu</room>
     <room>rooms\rm_items</room>
