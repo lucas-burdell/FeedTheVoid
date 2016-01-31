@@ -119,7 +119,6 @@
     <object>objects\oj_door_hub</object>
     <object>objects\obj_testText</object>
     <object>objects\obj_roomTransition</object>
-    <object>objects\obj_flicker_torch</object>
     <object>objects\Controller</object>
     <object>objects\Guy</object>
     <object>objects\Player</object>
@@ -136,10 +135,12 @@
     <object>objects\obj_cloud_movingside2side</object>
     <object>objects\obj_cloud_moveupanddown</object>
     <object>objects\obj_skull_music</object>
+    <object>objects\obj_flicker_torch</object>
     <object>objects\obj_button_exit</object>
     <object>objects\obj_button_mainMenu</object>
     <object>objects\obj_button_parent</object>
     <object>objects\obj_button_start</object>
+    <object>objects\obj_genericText</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
@@ -147,28 +148,23 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>
-    <room>rooms\rm_temple_air</room>
     <room>rooms\cutscene_1</room>
-    <room>rooms\mainmenu</room>
+    <room>rooms\rm_temple_air</room>
     <room>rooms\rm_first</room>
-    <room>rooms\rm_airLevelpart_1</room>
     <room>rooms\rm_second</room>
+    <room>rooms\rm_airLevelpart_1</room>
     <room>rooms\rm_nightmareLevelpart_1</room>
     <room>rooms\rm_hub</room>
     <room>rooms\rm_fireLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_2</room>
-    <room>rooms\rm_water_temple_enterance</room>
+    <room>rooms\rm_water_temple_entrance</room>
     <room>rooms\rm_earthLevelpart_1</room>
     <room>rooms\rm_merchant</room>
     <room>rooms\rm_temple_entrance</room>
-    <room>rooms\rm_mercant</room>
-    <room>rooms\rm_temple_enterance</room>
     <room>rooms\rm_deathScreen</room>
-    <room>rooms\room16</room>
-    <room>rooms\room17</room>
-    <room>rooms\room18</room>
-    <room>rooms\room19</room>
+    <room>rooms\mainmenu</room>
+    <room>rooms\rm_items</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -75,13 +75,13 @@ currentDistance = 0;
             <string>///Floor movement
 
 
-if (place_meeting(x, y - sprite_height/2 + 1, obj_char)) {
-        obj_char.y = y - obj_char.sprite_height/2 - sprite_height/2;
+if (place_meeting(x, y - 1, obj_char)) {
+//        obj_char.y = y - obj_char.sprite_height/2 - sprite_height/2;
         
     if (goingDown) {
-        //obj_char.y = y - vspeed;
+        obj_char.y = y + vspeed;
     } else{ 
-        obj_char.y += -1;
+        obj_char.y = y - vspeed;
     }
     
 }
@@ -117,6 +117,32 @@ move_outside_solid(90, sprite_height);
 }
 */
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_inv_wall">
+      <action>
+        <libid>1</libid>
+        <id>115</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_bounce</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
           </argument>
         </arguments>
       </action>

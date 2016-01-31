@@ -107,7 +107,7 @@
     <instance objName="obj_inv_wall_player" x="864" y="0" name="inst_96ED09AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_skull_floor" x="992" y="128" name="inst_4BE9BB00" locked="0" code="" scaleX="1.31707322597504" scaleY="1.57894742488861" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="992" y="64" name="inst_127E90C9" locked="0" code="" scaleX="1.16666662693024" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
-    <instance objName="obj_char" x="128" y="608" name="inst_A6EE1D9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_char" x="128" y="576" name="inst_A6EE1D9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oj_squence_death" x="96" y="736" name="inst_3329D72F" locked="0" code="" scaleX="29" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_skull_music" x="32" y="32" name="inst_14DC43D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

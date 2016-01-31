@@ -42,7 +42,7 @@ grav_enabled = true;
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="3" enumb="2">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -80,10 +80,9 @@ if (grav_enabled) {
 }
 //if (vsp &lt; 30) vsp += grav; //positive = down, negative = up
 
-    // JUMP
-if (place_meeting(x, y + 1, obj_floor)) {
-    vsp = key_jump * -jumpspeed;
-}
+
+
+
 
 //horizontal collision check
 if (place_meeting(x + hsp, y, obj_floor)) {
@@ -93,11 +92,16 @@ if (place_meeting(x + hsp, y, obj_floor)) {
     hsp = 0;
 }
 
-var oldvsp = vsp;
-
+// JUMP
+//checkfloor = instance_place(x, y + vsp, obj_floor);
+//if (checkfloor != noone) {
+if (key_jump) {
+    vsp = key_jump * -jumpspeed;
+}
+//}
 
 //vertical collision check
-if (place_meeting(x, y + vsp, obj_floor) &amp;&amp; !place_meeting(x, y + vsp, oj_movingup_down_floor)) {
+if (place_meeting(x, y + vsp, obj_floor)) {
     while(!place_meeting(x, y + sign(vsp), obj_floor)) {
         y += sign(vsp);
     }
@@ -106,13 +110,12 @@ if (place_meeting(x, y + vsp, obj_floor) &amp;&amp; !place_meeting(x, y + vsp, o
         
 
 
-
-
-
+if (key_jump) {
+    vsp = key_jump * -jumpspeed;
+}
 
 x += hsp;
 y += vsp;
-
 
 //Clipping check (prevent character getting stuck)
 
