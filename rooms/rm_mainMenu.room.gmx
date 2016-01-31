@@ -55,6 +55,8 @@
     <instance objName="obj_MSG_Controller" x="96" y="256" name="inst_8E264205" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room_controller" x="96" y="288" name="inst_25897258" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_elemental_char" x="128" y="352" name="inst_B7831994" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button_start" x="489" y="223" name="inst_A982673D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button_exit" x="490" y="319" name="inst_795AC14D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -156,7 +156,6 @@
     <instance objName="obj_touch_door" x="960" y="640" name="inst_3C6CE993" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_darkness_side" x="224" y="384" name="inst_853CB8A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_MSG_trigger" x="448" y="672" name="inst_30141D2B" locked="0" code="myMessage[0] = &quot;%rWatch out!%k#What’s wrong with you?&quot;;&#xA;myMessage[1] = &quot;You can’t just stand around like that --#it’s dangerous here.&quot;&#xA;myMessage[2] = &quot;Come on, follow me.&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_retarded_death" x="96" y="32" name="inst_4E9C1A59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

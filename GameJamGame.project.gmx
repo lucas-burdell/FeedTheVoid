@@ -172,16 +172,16 @@
     <object>objects\obj_darkness_hand</object>
     <object>objects\obj_darkness_hand_right</object>
     <objects name="Buttons">
-      <object>objects\obj_button_mainMenu0</object>
+      <object>objects\obj_button_mainMenu</object>
       <object>objects\obj_button_parent</object>
       <object>objects\obj_button_exit</object>
       <object>objects\obj_button_start</object>
       <object>objects\obj_button_restart</object>
       <object>objects\obj_pause_menu_controller</object>
       <object>objects\obj_death_screen</object>
-      <object>objects\obj_retarded_death</object>
     </objects>
     <object>objects\obj_portal</object>
+  <object>objects\Killer</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
@@ -190,9 +190,9 @@
     <room>rooms\rm_mainMenu</room>
     <room>rooms\cutscene_1</room>
     <room>rooms\rm_tutorial_1</room>
+    <room>rooms\rm_tutorial_2</room>
     <room>rooms\rm_tutorial_temple</room>
     <room>rooms\rm_hub</room>
-    <room>rooms\rm_tutorial_2</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
     <room>rooms\rm_airLevelpart_1</room>
@@ -212,7 +212,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\lucas.burdell\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
