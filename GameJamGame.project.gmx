@@ -139,12 +139,7 @@
     <object>objects\oj_restart</object>
     <object>objects\obj_youDied</object>
     <object>objects\oj_squence_death</object>
-    <object>objects\obj_button_exit</object>
-    <object>objects\obj_button_mainMenu</object>
-    <object>objects\obj_button_parent</object>
-    <object>objects\obj_button_start</object>
     <object>objects\obj_room_controller</object>
-    <object>objects\obj_pause_menu_controller</object>
     <object>objects\obj_genericText</object>
     <object>objects\obj_tutorial_road</object>
     <object>objects\obj_indicator_arrow</object>
@@ -185,8 +180,8 @@
       <object>objects\obj_button_restart</object>
       <object>objects\obj_pause_menu_controller</object>
       <object>objects\obj_death_screen</object>
-      <object>objects\obj_retarded_death</object>
     </objects>
+    <object>objects\Killer</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
